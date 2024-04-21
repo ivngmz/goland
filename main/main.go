@@ -56,36 +56,11 @@ import "fmt"
 */
 
 func main() {
-	// String
-	var name = "Andromeda"
-	name2 := "Milky Way"
-	// Number
-	var age = 13                // Age of the universe in billions of years
-	var height float64 = 100000 // Average galaxy diameter in light years
-	// Boolean
-	var isSpiral = true
-	// Array
-	var galaxies = [3]string{"Andromeda", "Milky Way",
-		"Triangulum"} // Galaxies in the local group
-	// Slice
-	var colors = []string{"Red", "Green",
-		"Blue"} // Colors of galaxies
-	// Map
-	var galaxy = map[string]string{
-		"name":     "Andromeda",
-		"age":      "10",  // Age in billions of years
-		"diameter": "220", // Diameter in thousands of light years
-		"isSpiral": "true",
-	}
-
-	// Print the data type
-	fmt.Printf("Name: %T\n", name)
-	fmt.Printf("Name2: %T\n", name2)
-	fmt.Printf("Age: %T\n", age)
-	fmt.Printf("Diameter: %T\n", height)
-	fmt.Printf("Is Spiral: %T\n", isSpiral)
-	fmt.Printf("Galaxies: %T\n", galaxies)
-	fmt.Printf("Colors: %T\n", colors)
-	fmt.Printf("Galaxy: %T\n", galaxy)
-
+	var num1, num2, result int
+	fmt.Println("Enter first number: ")
+	fmt.Scanf("%d", &num1)
+	fmt.Println("Enter second number: ")
+	fmt.Scanf("%d", &num2)
+	result = num1 + num2
+	fmt.Printf("The sum of %d and %d is %d\n", num1, num2, result)
 }
