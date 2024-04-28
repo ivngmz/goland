@@ -2,11 +2,14 @@ package _2variables
 
 import (
 	"fmt"
+	"reflect"
+	"strconv"
 	"strings"
 )
 
 func main() {
 
+	var num1, num2, result int
 	var country string = "Indonesia"
 	var city string = "Jakarta"
 	var citizens int = 10000000
@@ -94,4 +97,12 @@ func main() {
 		country := "Malaysia"
 		fmt.Printf("The nearest city of Indonesia to %s is %v\n", country, cityNearest)
 	}
+	fmt.Printf("The type of %v is %T: ", num1, num2)
+	fmt.Printf("The type of %v is is %T\n: ", num1, reflect.TypeOf(num1))
+	fmt.Printf("The sum of %d and %d is %d\n", num1, num2, result)
+	var f float64 = 3.14
+	var i int = int(f)
+	var s string = strconv.Itoa(i)
+	fmt.Printf("The type of %v is %T and value is %d: ", i, i)
+	fmt.Printf("The type of %v is %T and value is %f: ", s, s)
 }
