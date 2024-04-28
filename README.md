@@ -19,6 +19,7 @@ This project is a collection of Go programs demonstrating various concepts in th
 - `03userInput/main.go`: Demonstrates handling user input.
 - `04operators/main.go`: Demonstrates the use of arithmetic, comparison, logical, and bitwise operators.
 - `05controlflow/main.go`: Demonstrates control flow mechanisms like loops, conditional statements, break/continue, defer, and panic.
+- - `06complexdatatypes/main.go`: Demonstrates complex data types in Go, such as arrays, slices and maps.
 
 ## Running the Programs
 To run any program, navigate to its directory and run `go run main.go`.
