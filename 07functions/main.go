@@ -1,4 +1,4 @@
-package main
+package _7functions
 
 import "fmt"
 
