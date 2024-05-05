@@ -1,4 +1,4 @@
-package _8Pointers
+package _8pointers
 
 import "fmt"
 

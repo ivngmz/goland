@@ -1,4 +1,4 @@
-package main
+package _9structs
 
 import "fmt"
 
