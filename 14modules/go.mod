@@ -1,6 +1,3 @@
-module 14modules
+module github.com/ivngmz/golang
 
-go 1.22
-
-
-
+go 1.22.2
