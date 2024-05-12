@@ -7,15 +7,6 @@ import (
 	"time"
 )
 
-package main
-
-import (
-"fmt"
-"strings"
-"sync"
-"time"
-)
-
 func main() {
 	/* Channels:
 	Info:
