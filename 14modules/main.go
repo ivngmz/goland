@@ -1,11 +1,4 @@
-package main
-
-import (
-	"fmt"
-	"github.com/alejandrox1/GoLang/14modules/map"
-	"github.com/alejandrox1/GoLang/14modules/reduce"
-)
-
+package _4modules
 
 func main() {
 	/* Library management:
@@ -31,10 +24,5 @@ func main() {
 		- could be updated by running go mod edit.
 	- module must be public, so it must be stored in a public repository.
 	*/
-
-	fmt.Printf("Hello, world!\n")
-	map.MapIntToInt()
-	reduce.ReduceIntToInt()
-
 
 }
