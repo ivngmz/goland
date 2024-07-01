@@ -1,4 +1,4 @@
-package _map
+package functionMap
 
 func MapIntToInt(f func(int) int, a []int) []int {
 	b := make([]int, len(a))

@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	_map "github.com/ivngmz/golang/module/map"
-	_reduce "github.com/ivngmz/golang/module/reduce"
+	"github.com/ivngmz/goland/module/functionMap"
+	"github.com/ivngmz/goland/module/functionReduce"
 )
 
 func main() {
@@ -20,12 +20,12 @@ func main() {
 	a := []int{1, 2, 3, 4, 5}
 
 	// Call MapIntToInt with the function and slice as arguments
-	result := _map.MapIntToInt(f, a)
+	result := functionMap.MapIntToInt(f, a)
 
 	fmt.Println(result)
 
 	// Call ReduceIntToInt with the function and slice as arguments
-	reducedResult := _reduce.ReduceIntToInt(r, a)
+	reducedResult := functionReduce.ReduceIntToInt(r, a)
 
 	fmt.Println(reducedResult)
 }

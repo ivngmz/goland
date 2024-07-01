@@ -1,4 +1,4 @@
-package _reduce
+package functionReduce
 
 func ReduceIntToInt(f func(int, int) int, a []int) int {
 	if len(a) == 0 {
